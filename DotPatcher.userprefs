@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="DotPatcher/DotPatcher.csproj">
+﻿<Properties StartupItem="DotPatcher/DotPatcher.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DotPatcher/Program.cs">
     <Files>

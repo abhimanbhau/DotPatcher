@@ -28,8 +28,9 @@ namespace DotPatcher
 					PatchTools.patchGeneric (true, exePath, "DotPatcher - OneShot patch");
 					PatchTools.patchGeneric (false, exePath, "DotPatcher - OneShot patch");
 					PatchTools.wipeAssembly (exePath);
+					PatchTools.patchMalware (exePath);
 				}
-			}else {
+			} else {
 				try {
 					Console.WriteLine ("Patching Methods\n1. Inject Custom Message" +
 					"\n2. Inject Popup message\n3. Wipe out whole assembly\n4. Malware Patch");
@@ -52,7 +53,7 @@ namespace DotPatcher
 						break;
 
 					case 4:
-						PatchTools.patchMalware(exePath);
+						PatchTools.patchMalware (exePath);
 						break;
 					}
 					Console.WriteLine ("\nAbhimanbhau Kolte (c)CopyLeft 2015");

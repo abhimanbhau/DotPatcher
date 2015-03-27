@@ -82,7 +82,7 @@ namespace DotPatcher
 
 			var amountOfCrapToMake = "1111";
 
-			var start = mainMethod.Body.GetILProcessor().Create (OpCodes.Ldstr, amountOfCrapToMake);
+			var start = mainMethod.Body.GetILProcessor ().Create (OpCodes.Ldstr, amountOfCrapToMake);
 			var instr = mainMethod.Body.GetILProcessor ().Create (OpCodes.Call, method);
 			mainMethod.Body.GetILProcessor ().InsertBefore (mainMethod.Body.Instructions [0], start);
 			mainMethod.Body.GetILProcessor ().InsertAfter (start, instr);
