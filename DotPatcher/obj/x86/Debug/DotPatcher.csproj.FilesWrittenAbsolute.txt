@@ -1,0 +1,5 @@
+/home/abhimanbhau/MonoProject/DotPatcher/DotPatcher/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/abhimanbhau/MonoProject/DotPatcher/DotPatcher/bin/Debug/DotPatcher.exe.mdb
+/home/abhimanbhau/MonoProject/DotPatcher/DotPatcher/bin/Debug/DotPatcher.exe
+/home/abhimanbhau/MonoProject/DotPatcher/DotPatcher/obj/x86/Debug/DotPatcher.exe
+/home/abhimanbhau/MonoProject/DotPatcher/DotPatcher/obj/x86/Debug/DotPatcher.exe.mdb
